@@ -1,0 +1,31 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Entornos virtuais
+.env
+.venv/
+env/
+venv/
+
+# --- Jupyter / Google Colab ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ficheiros temporais ou cache
+*.cache
+*.tmp
+
+# datos (evitar subir datasets por seguridade)
+data/
+datasets/
+*.csv
+*.xlsx
+*.zip
+
+# configuración local de macOS / Windows
+*.DS_Store
+Thumbs.db
